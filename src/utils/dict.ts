@@ -128,6 +128,17 @@ export enum DICT_TYPE {
   INFRA_CODEGEN_SCENE = 'infra_codegen_scene',
   INFRA_FILE_STORAGE = 'infra_file_storage',
 
+  // ========== YI 模块 ===========
+  PRODUCT_TYPE = 'product_type',
+  RELEASE_STATUS = 'release_status',
+  SALE_STATUS = 'sale_status',
+  INVESTMENT_AREA = 'investment_area',
+  DXPB = 'dxpb',
+  INTEREST_PAYMENT_METHOD = 'interest_payment_method',
+  INCOME_TYPE = 'income_type',
+  PRODUCT_LABEL = 'product_label',
+  LINK_PAGE_CATEGORY = 'link_page_category',
+
   // ========== BPM 模块 ==========
   BPM_MODEL_CATEGORY = 'bpm_model_category',
   BPM_MODEL_FORM_TYPE = 'bpm_model_form_type',

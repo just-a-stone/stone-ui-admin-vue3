@@ -125,9 +125,9 @@
           </div>
         </el-form-item>
       </el-col>
-      <el-divider content-position="center">萌新必读</el-divider>
+      <el-divider content-position="center">----</el-divider>
       <el-col :span="24" style="padding-right: 10px; padding-left: 10px">
-        <el-form-item>
+        <!-- <el-form-item>
           <div class="w-[100%] flex justify-between">
             <el-link href="https://doc.iocoder.cn/" target="_blank">📚开发指南</el-link>
             <el-link href="https://doc.iocoder.cn/video/" target="_blank">🔥视频教程</el-link>
@@ -138,7 +138,7 @@
               🤝外包咨询
             </el-link>
           </div>
-        </el-form-item>
+        </el-form-item> -->
       </el-col>
     </el-row>
   </el-form>
@@ -184,9 +184,9 @@ const loginData = reactive({
   captchaEnable: import.meta.env.VITE_APP_CAPTCHA_ENABLE,
   tenantEnable: import.meta.env.VITE_APP_TENANT_ENABLE,
   loginForm: {
-    tenantName: '芋道源码',
-    username: 'admin',
-    password: 'admin123',
+    tenantName: '芋艿吃吃',
+    username: '',
+    password: '',
     captchaVerification: '',
     rememberMe: false
   }

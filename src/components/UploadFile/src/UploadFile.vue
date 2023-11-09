@@ -122,7 +122,7 @@ const excelUploadError: UploadProps['onError'] = (): void => {
 }
 // 删除上传文件
 const handleRemove = (file) => {
-  const findex = fileList.value.map((f) => f.name).indexOf(file.name)
+  const findex = fileList.value ? fileList.value.map((f) => f.name).indexOf(file.name) : -1
   if (findex > -1) {
     fileList.value.splice(findex, 1)
     emit('update:modelValue', listToString(fileList.value))
